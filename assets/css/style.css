@@ -1,7 +1,25 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
+    font-family: Coronetscript, cursive;
+    font-size: 22px;
+    background-color:white;
+    color: red;
   }
-  
+  #start {
+    background-color: red;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+
+  #title {
+    font-family: Blippo, fantasy;;
+  }
   #end-page {
     display: none;
   }
@@ -10,6 +28,7 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     width: 100% \9;
+    
   }
   
   h1 {
@@ -22,7 +41,7 @@ body {
   
   #end-page p {
     font-size: 20px;
-    /* font-weight: 700; */
+    
   }
   
   #correct-answers {
@@ -35,19 +54,14 @@ body {
     font-weight: 500;
   }
   
-  footer {
-    height: 30px;
-    margin-top: 30px;
-  }
-  
-  #copyright-small {
-    font-size: 12px;
-  }
-  
+
   #timer {
     margin-top: 20px;
   }
   
-  #done-button {
+  #finished-button {
     margin-top: 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: red;
   }
