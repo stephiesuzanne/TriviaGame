@@ -11,19 +11,20 @@
 </head>
 
 <body>
+    <div id=wrapper>
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
         <img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Disney-Castle-Photos.jpg" class="img-fluid text-center" id="main-logo" alt="Disney logo">
-        <h1 class="display-3">The Ultimate Disney Trivia Quiz</h1>
+        <h1 id="title">The Ultimate Disney Trivia Quiz</h1>
         <hr>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-3">
-        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Download-Disney-Character-HD-Photos-620x465.jpg" class="img-fluid text-center" id="family-photo" alt="Disney Characters">
+        <img src="https://www.ixxiyourworld.com/media/1676571/Mickey-Mouse-2.jpg?mode=crop&width=562&height=613" class="img-fluid text-center" id="family-photo" alt="Disney Characters">
         <div>
           <h3 id="timer"></h3>
         </div>
@@ -35,9 +36,11 @@
         <div id="start-page" class="start-page-text">
           <h2>Get ready to play</h2>
           <p>Test your knowledge of everything <i>Disney</i> with this multiple choice trivia game. You have 60 seconds to answer all the questions and the game ends automatically when time has elapsed. Good luck!</p>
-          <div class="btn btn-primary" id="start-button">Start
-          </div>
-        </div>
+          <!-- <div class="btn btn-primary" id="start-button">Start -->
+             <!-- </div> -->
+             <div id="subwrapper">
+             <button id="start">Start</button>
+            </div>
 
       <div>
         <div id="questions-box">
@@ -59,6 +62,8 @@
       
       </div>
     </footer>
+
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>

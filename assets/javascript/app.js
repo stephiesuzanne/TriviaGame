@@ -1,7 +1,9 @@
+//@ts-check
 $(document).ready(function(){
 
     // start the game when user clicks on Start button
-    $("#start-button").on("click", gameState.startTimer);
+    $("#start").on("click", gameState.startTimer);
+    console.log("You clicked me!")
   
   });
   
@@ -115,7 +117,7 @@ $(document).ready(function(){
     },
   
     {
-      question: "What popular Disney character makes an appearance as a stuffed animal in "Frozen?"",
+      question: "What popular Disney character makes an appearance as a stuffed animal in Frozen?",
       answers: ["Tinkerbell", "Mickey Mouse"],
       correct: "Mickey Mouse"
     },
@@ -140,22 +142,22 @@ $(document).ready(function(){
       correct: "Prince George"
     },
     {
-      question: "What does the enchanted cake in "Brave" turn Merida's mother into?",
+      question: "What does the enchanted cake in Brave turn Merida's mother into?",
       answers: ["A Tea Pot", "A Bear"],
       correct: "A Bear"
     },
     {
-      question: "Who did Pocahontas’ father want her to marry?"
+      question: "Who did Pocahontas’ father want her to marry?",
       answers: ["John Smith", "Kocoum"],
       correct: "Kocoum"
     },
     {
-      question: "In "The Little Mermaid," what name does Ursula go by when she disguises herself and uses Ariel’s voice to try and win over Eric?",
+      question: "In The Little Mermaid, what name does Ursula go by when she disguises herself and uses Ariel’s voice to try and win over Eric?",
       answers: ["Vanessa", "Athena"],
       correct: "Vanessa"
     },
     {
-      question: "What U.S. city is the setting of "The Princess and The Frog" inspired by?",
+      question: "What U.S. city is the setting of The Princess and The Frog inspired by?",
       answers: ["Austin", "New Orleans"],
       correct: "New Orleans"
     }
